@@ -50,7 +50,7 @@ public class ImageControllerTest {
 
     @Test
     public void getImageByCodeInternalServerErrorNotFound() throws Exception {
-        mvc.perform(get("/ima"))
+        mvc.perform(get("/images/0"))
                 .andExpect(status().isNotFound());
     }
 

@@ -11,9 +11,10 @@ import java.io.IOException;
 public class ImageService {
 
     private static final String IMAGES_FOUDER = "image";
+    public static final String IMAGE_EXTENSION = ".png";
 
     public byte[] getImage(String code) {
-        var imgFile = new ClassPathResource(IMAGES_FOUDER + "/" + code + ".jpg");
+        var imgFile = new ClassPathResource(IMAGES_FOUDER + "/" + code + IMAGE_EXTENSION);
         try {
             return StreamUtils.copyToByteArray(imgFile.getInputStream());
         } catch (IOException e) {

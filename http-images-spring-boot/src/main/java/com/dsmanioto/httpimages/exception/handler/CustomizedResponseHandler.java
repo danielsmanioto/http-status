@@ -25,7 +25,7 @@ public class CustomizedResponseHandler extends ResponseEntityExceptionHandler {
 
     @ExceptionHandler(ImageNotFoundException.class)
     public final ResponseEntity<byte[]> notFound(Exception ex, WebRequest request) {
-        byte[] bytes = service.getImage("404");
+        byte[] bytes = service.getImage("no-image");
 
         return ResponseEntity
                 .status(HttpStatus.NOT_FOUND)

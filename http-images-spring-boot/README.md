@@ -22,3 +22,9 @@ The goal here is return image diferente for eatch HTTP Status Code informed by U
 `sh build.sh`
 
 `sh run.sh`
+
+# References
+ https://text2image.com/en/
+ https://http.cat/
+ https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+  
