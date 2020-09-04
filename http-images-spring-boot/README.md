@@ -8,10 +8,17 @@ The goal here is return image diferente for eatch HTTP Status Code informed by U
   <li>Java11</li>
   <li>Gradle</li>
   <li>SpringBoot</li>
-<ul>
+</ul>
   
 # Run local
 `./gradlew bootRun`
 
-curl http://localhost:8080/images/100
+`curl http://localhost:8080/images/100`
 
+# Run with Docker
+
+`./gradlew clean build`
+
+`sh build.sh`
+
+`sh run.sh`

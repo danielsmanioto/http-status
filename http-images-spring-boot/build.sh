@@ -1,0 +1,1 @@
+docker build --tag=danielsmanioto/http-images-spring-boot .
