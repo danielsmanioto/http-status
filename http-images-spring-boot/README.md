@@ -4,10 +4,12 @@
 The goal here is return image diferente for eatch HTTP Status Code informed by User 
 
 # Technoliges
-Java11
-Gradle
-SpringBoot
-
+<ul>
+  <li>Java11</li>
+  <li>Gradle</li>
+  <li>SpringBoot</li>
+<ul>
+  
 # Run local
 `./gradlew bootRun`
 
